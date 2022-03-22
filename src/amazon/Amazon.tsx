@@ -15,8 +15,12 @@ function Amazon() {
                 </div>
                 <div className='opciones'></div>
                 <div className='resultados'>
-                    <p>1 a 16 de más de 100,00 resultados para <span>"phone"</span></p>
-                    <button>ordenar por: destacados</button>
+                    <p>1 a 16 de más de 100,00 resultados para <span id='phone'>"phone"</span></p>
+                    <select name="Ordenar por:">
+                        <option value="value1" selected>Destacados</option>
+                        <option value="value2">Precio</option>
+                        <option value="value3">A - Z</option>
+                    </select>
                 </div>
             </div>
             <div className='filtro'></div>

@@ -40,13 +40,13 @@
 .resutados {    
     width: 100vw;
     height: 4vw;
-    background-color: darkblue;
+    background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-span {
+#phone {
     color: orange;
 }
 
