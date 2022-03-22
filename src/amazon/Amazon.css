@@ -1,0 +1,86 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: [v1] 20vw [v2] 80vw [v3];
+    grid-template-rows: [r1] 15vh [r2] 85vh [r3];
+    grid-template-areas: 
+        "header header"
+        "filtro main";
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+
+.filtro {
+    grid-area: filtro;
+    background-color: violet;
+}
+
+.main {
+    grid-area: main;
+    background-color: coral;
+}
+
+.containerBuscador {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.opciones {
+    width: 100vw;
+    height: 4vh;
+    background-color: firebrick;
+}
+
+.resutados {    
+    width: 100vw;
+    height: 4vw;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span {
+    color: orange;
+}
+
+.logo {
+    background-color: black;
+    width: 10vw;
+}
+
+.ubicacion {
+    background-color: chocolate;
+    width: 15vw;
+}
+
+.buscador {
+    background-color: white;
+    width: 40vw;
+}
+
+.bandera {
+    background-color: cyan;
+    width: 5vw;
+}
+
+.listas {
+    background-color: darkcyan;
+    width: 10vw;
+}
+
+.pedidos {
+    background-color: blueviolet;
+    width: 10vw;
+}
+
+.carrito {
+    background-color: crimson;
+    width: 10vw;
+}
